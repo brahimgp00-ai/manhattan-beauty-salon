@@ -29,7 +29,7 @@ export function HeroSection() {
         <FadeIn delay={0.6} y={30}>
           <Magnet padding={150} strength={3}>
             <img 
-              src="/hero-portrait.png" 
+              src="https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853277/grok-image-7e1669b9-368f-4641-a3a6-c1a567f60865-removebg-preview_mbnqjp.webp" 
               alt="Manhattan Hero Portrait" 
               className="w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] object-contain max-h-[70vh] sm:max-h-none block"
             />

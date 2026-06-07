@@ -9,9 +9,9 @@ const projects = [
     label: "Hair",
     name: "Signature Hair Styling",
     images: {
-      l1: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1531-1-scaled.jpg",
-      l2: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0936-1-scaled.jpg",
-      r1: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1455-1.jpg"
+      l1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853251/176156945_783006059006372_1596543678906006643_n_uo0nx7.webp",
+      l2: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853251/133090051_720990515207927_2382211696552807983_n_awqcoi.webp",
+      r1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/WhatsApp-Image-2021-03-06-at-3.58.58-PM-500x600_af306n.webp"
     }
   },
   {
@@ -19,9 +19,9 @@ const projects = [
     label: "Beauty",
     name: "Color & Beauty Care",
     images: {
-      l1: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0824-1.jpg",
-      l2: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1320-1-scaled.jpg",
-      r1: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/DBDB6AEE-7DA5-4E5C-84DF-383D91662B7E-1.jpg"
+      l1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/176103536_783006149006363_1071830874126976552_n_forytj.webp",
+      l2: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853253/WhatsApp-Image-2021-03-06-at-4.02.27-PM-1-500x600_1_r3uynd.webp",
+      r1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/WhatsApp-Image-2021-03-06-at-4.02.26-PM-500x600_childz.webp"
     }
   },
   {
@@ -29,9 +29,9 @@ const projects = [
     label: "Salon",
     name: "Manhattan Experience",
     images: {
-      l1: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0902-1.jpg",
-      l2: "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1154-1-scaled.jpg",
-      r1: "https://manhattan-beauty-salon.com/wp-content/uploads/2021/04/Manhattan-Beauty-Salon.png"
+      l1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853254/IMG_0902-1-500x600_jov0g1.webp",
+      l2: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/IMG_1320-1-scaled-500x600_spfotb.webp",
+      r1: "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/DBDB6AEE-7DA5-4E5C-84DF-383D91662B7E-1-500x600_brfpb8.webp"
     }
   }
 ];

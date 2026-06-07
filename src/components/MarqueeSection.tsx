@@ -2,31 +2,22 @@ import { motion, useScroll, useTransform } from 'motion/react';
 import React, { useRef, useEffect, useState } from 'react';
 
 const gifs = [
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1531-1-scaled-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0936-1-scaled-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1455-1-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0824-1-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1320-1-scaled-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/DBDB6AEE-7DA5-4E5C-84DF-383D91662B7E-1-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_0902-1-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2020/11/IMG_1154-1-scaled-500x600.jpg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-3.58.56-PM-1-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-3.58.56-PM-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-3.58.57-PM-1-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-3.58.57-PM-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-3.58.58-PM-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-4.02.26-PM-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-4.02.27-PM-1-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/03/WhatsApp-Image-2021-03-06-at-4.02.27-PM-500x600.jpeg",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/04/Manhattan-Beauty-Salon.png",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/04/Manhattan-Beauty-Studio.png",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/12/Manhattan-Beauty-1-500x500.png",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/12/Manhattan-Beauty-2-500x500.png",
-  "https://manhattan-beauty-salon.com/wp-content/uploads/2021/12/Manhattan-Beauty-3-500x500.png"
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853251/176156945_783006059006372_1596543678906006643_n_uo0nx7.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853251/133090051_720990515207927_2382211696552807983_n_awqcoi.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/WhatsApp-Image-2021-03-06-at-3.58.58-PM-500x600_af306n.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/176103536_783006149006363_1071830874126976552_n_forytj.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853253/WhatsApp-Image-2021-03-06-at-4.02.27-PM-1-500x600_1_r3uynd.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853252/WhatsApp-Image-2021-03-06-at-4.02.26-PM-500x600_childz.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853254/IMG_0902-1-500x600_jov0g1.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/IMG_1320-1-scaled-500x600_spfotb.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/DBDB6AEE-7DA5-4E5C-84DF-383D91662B7E-1-500x600_brfpb8.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/WhatsApp-Image-2021-03-06-at-4.02.27-PM-1-500x600_knln1c.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853255/IMG_0824-1-500x600_aqadhu.webp",
+  "https://res.cloudinary.com/dlohdj45w/image/upload/q_auto/f_auto/v1780853291/60818456_359623884677927_2358798585878806528_n_aa90dq.webp"
 ];
 
-const row1Original = gifs.slice(0, 11);
-const row2Original = gifs.slice(11);
+const row1Original = gifs.slice(0, 6);
+const row2Original = gifs.slice(6);
 
 // Triple them for seamless scrolling
 const row1 = [...row1Original, ...row1Original, ...row1Original];
