@@ -3,7 +3,7 @@ import { FadeIn } from './FadeIn';
 import { AnimatedText } from './AnimatedText';
 import { ContactButton } from './Buttons';
 
-export function AboutSection() {
+export function AboutSection({ onBookClick }: { onBookClick?: () => void }) {
   return (
     <section id="about" className="relative min-h-screen flex flex-col items-center justify-center px-5 sm:px-8 md:px-10 py-20 overflow-hidden">
       {/* Top Left */}
@@ -40,7 +40,7 @@ export function AboutSection() {
           />
 
           <FadeIn delay={0.2} y={30}>
-            <ContactButton />
+            <ContactButton onClick={onBookClick} />
           </FadeIn>
         </div>
       </div>

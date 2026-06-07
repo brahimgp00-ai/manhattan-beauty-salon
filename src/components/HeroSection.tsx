@@ -3,7 +3,7 @@ import { FadeIn } from './FadeIn';
 import { Magnet } from './Magnet';
 import { ContactButton } from './Buttons';
 
-export function HeroSection() {
+export function HeroSection({ onBookClick }: { onBookClick?: () => void }) {
   return (
     <section className="flex h-screen flex-col overflow-x-clip relative w-full">
       {/* Navbar */}
@@ -46,7 +46,7 @@ export function HeroSection() {
         </FadeIn>
 
         <FadeIn delay={0.5} y={20} className="pointer-events-auto">
-          <ContactButton />
+          <ContactButton onClick={onBookClick} />
         </FadeIn>
       </div>
     </section>
